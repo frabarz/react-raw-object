@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    // "declaration": true,
+    // "declarationDir": "./dist",
+    "jsx": "react",
+    "module": "ES6",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "ES2015"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "dist", "example"]
+}

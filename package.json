@@ -1,0 +1,48 @@
+{
+  "name": "react-raw-object",
+  "version": "1.0.0",
+  "description": "React component to render a raw javascript object as a collapsable tree.",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "files": ["/dist"],
+  "scripts": {
+    "build": "cross-env NODE_ENV=production rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frabarz/react-raw-object.git"
+  },
+  "keywords": [
+    "react",
+    "object",
+    "json",
+    "raw",
+    "object",
+    "tree"
+  ],
+  "author": "Francisco Abarzúa <something@frabarz.cl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frabarz/react-raw-object/issues"
+  },
+  "homepage": "https://github.com/frabarz/react-raw-object#readme",
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-beep": "^0.1.2",
+    "@rollup/plugin-typescript": "^3.0.0",
+    "@types/react": "^16.9.19",
+    "cross-env": "^7.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "rollup": "^1.31.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.5"
+  },
+  "prettier": {
+    "printWidth": 90
+  }
+}
